@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Links-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+              <li class="nav-item px-lg-3">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-lg-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item px-lg-3">
+                <a class="nav-link" href="#">Recipe</a>
+              </li>
+              <li class="nav-item px-lg-3">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Header end -->
+
+    <!-- Search start -->
+    <div class="container">
+        <div class="row justify-content-center mt-4 mb-5">
+          <div class="col-6">
+            <div class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Beef, Chicken, Seafood, Italian, Japanese, Noddles" aria-label="Search" id="input">
+              <button class="btn btn-success" id="search" onclick="foodSearch()">Search</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Search end -->
+
+    <!-- Food Details start -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <div class=" mb-3 w-75" id="foodDetails">
+        
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Food Details end -->
+
+    <!-- Ingredients start -->
+    <div class="container">
+      <div class="ingredients" id="ingredients">
+        
+      </div>
+    </div>
+    <!-- Ingredients end -->
+
+    <!-- FoodMenu Start -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-4" id="foodDiv">
+        
+        
+      </div>
+    </div>
+    <!-- FoodMenu end -->
+    
+    <!-- JS Links -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.menu li a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-link{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
