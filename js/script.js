@@ -65,7 +65,7 @@ function foodSearch(){
 
             let food = `
                
-                <div class="" onclick="selectFood('${element.idMeal}')" >
+                <div class="food" onclick="selectFood('${element.idMeal}')" >
                         <img src="${element.strMealThumb}" class="card-img-top" alt="${element.strMealThumb}">
                         <div class="card-body">
                             <h5 class="card-title text-center" id="foodName">${element.strMeal}</h5>

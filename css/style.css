@@ -8,3 +8,13 @@
     text-decoration: none;
     color: rgb(59, 59, 59);
 }
+
+.food:hover{
+    cursor: pointer;
+    
+}
+
+.food:hover img{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
